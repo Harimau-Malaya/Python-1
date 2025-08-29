@@ -1,11 +1,30 @@
-var = "1"
-var2 = "Hai"
+#soal 1
+a = int(input("Masukkan Angka: "))
+    
+if (a)%2==0:
+    print(a, "adalah bilangan genap.")
+elif (a)%2==1:
+    print(a, "adalah bilangan ganjil.")
+else:
+    print("Bilangan bukan bilangan genap maupun ganjil.")
+  
+#soal 2
+b = int(input("Masukkan Angka: "))
 
-print(var*100)
+a = 1
+c = 0
+while a <= b:
+    c+=a
+    a+=1
+print("Jumlah:", c)
 
-print(1+2)
-print(1-2)
-print(1/2)
-print(1*2)
-print(1**2)
-print(5%3) #nampilin sisa dari hasil bagi, kalo ngga bisa dibagioutputnya angka awalnya
+#soal 3
+a = int(input("Masukkan Angka: "))
+b = 0
+c = 9
+
+print("Tabel Perkalian", a, ":")
+
+while b <= c:
+    b += 1
+    print(a, "X", b, "=", a*b)
